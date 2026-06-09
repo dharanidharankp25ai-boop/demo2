@@ -11,11 +11,16 @@ void main() {
     System.out.print("\n fail mark: ");
     for (int i = 0; i <= 4; i++) {
         int val = arr[i];
+
+        
         if (val < 50) {
             System.out.print(val+" ");
         }
     }
 }
+
+
+
 
 
 
