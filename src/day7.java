@@ -103,7 +103,7 @@ public class day7 {
 */
 
 
-public class day7 Interface {
+public class day7  {
     interface Employee {
         void solveProblem();
         void work();
@@ -166,6 +166,6 @@ public class day7 Interface {
         emp2.work();
         System.out.println();
         emp2.solveProblem();
-        System.out.println("--------------------------------")
+        System.out.println("--------------------------------");
     }
 }

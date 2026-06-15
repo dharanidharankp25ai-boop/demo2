@@ -1,6 +1,6 @@
 
-public class day8 {
-    /*
+/*public class day8 {
+
 
     record CourseRecord(String department, String section){
     }
