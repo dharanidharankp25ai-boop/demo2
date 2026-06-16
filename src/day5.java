@@ -40,7 +40,8 @@
     }
      */
 
-    public class day5 {
+    public class
+    day5 {
 
         static class Student {
             String name, dept;
