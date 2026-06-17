@@ -1,0 +1,23 @@
+public class day11 {
+    static void main() {
+        String name =null;
+        try {
+            System.out.println(name.charAt(0));
+            System.out.println(45/0);
+
+        }catch (ArithmeticException e){
+            System.out.println("ArithmeticException");
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("ArrayIndexOutOfBoundsException");
+        }catch (Exception e){
+            System.out.println("exception");
+        }finally{
+            System.out.println("This will always execute");
+            name="";
+        }
+        System.out.println("Still running");
+        System.out.println("Name :"+name);
+    }
+}
+
+

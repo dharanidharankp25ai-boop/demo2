@@ -48,9 +48,10 @@ public class day10 {
 }
 
  */
+/*
 import java.util.LinkedList;
 
-public class day10{
+public class studentlinked day10 {
 
     static void process(LinkedList<String> list) {
         System.out.println("Removed : " + list.removeFirst());
@@ -88,6 +89,8 @@ public class day10{
         System.out.println(list);
     }
 }
+
+ */
 
 
 
